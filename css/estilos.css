@@ -131,7 +131,7 @@ img{
     height: 600px;
     width: 300px;
     /* max-width: 999px; */
-    /* max-height: 100px; 
+/* max-height: 100px; 
 }
 
 .mifoto{
@@ -183,3 +183,125 @@ display: flex;
     margin-top: 40px;
    
 } */
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* body{
+    background-color: yellow;
+} */
+
+/* .yo{
+    color: green;
+    font-size: 25px;
+} */
+
+#container {
+    border: 1px solid #808080;
+    width: 100%;
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    border: 1px solid red;
+    width: 100%;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+header .logo {
+    width: 200px;
+    font-size: 25px;
+}
+
+header .logo h1{
+    width: 100%;
+    
+}
+
+
+header .menu  a{
+    color: #a7a1a1;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+header .menu a:hover{
+    
+    text-decoration:underline;
+}
+
+
+
+.contenidoPrincipal {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.contenidoPrincipal .nombre{
+    display: inline-flex;
+    margin: 40px auto 0;
+    
+}
+
+
+.nombre h2{
+    text-transform: uppercase;
+}
+
+ .nombre p{
+    margin-left: 30px;
+    margin-top:60px;
+    font-size: 25px;
+}
+
+.nombre .cv{
+    margin-top: 120px;
+    align-items: center;
+}
+
+.contenidoSecundario {
+    border: 1px solid blue;
+    /* display: flex; */
+    width: 100%;
+}
+
+.contenidoSecundario .mifoto{
+    width: auto;
+    height: 250px;
+}
+
+.personales {
+    border: 1px solid orange;
+    justify-content: center;
+}
+
+.educacion {
+    border: 1px solid violet;
+}
+
+.experiencia {
+    border: 1px solid #3b5bbb;
+}
+
+.contenidoTercero {
+    border: 1px solid #b18714;
+}
+
+footer {
+    border: 1px solid #6fc2e9;
+}
